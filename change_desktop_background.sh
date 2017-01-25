@@ -7,7 +7,7 @@ tell application "System Events"
 set desktopCount to count of desktops
 repeat with desktopNumber from 1 to desktopCount
 tell desktop desktopNumber
-set picture to POSIX file "$image_path"
+set picture to POSIX file "/Users/JonBrelje/Pictures/alcatraz.jpg"
 end tell
 end repeat
 end tell
